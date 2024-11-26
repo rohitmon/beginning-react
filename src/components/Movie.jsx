@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Movie = ({movie}) => {
   return (
     <li className="movie" key={movie.id}>
