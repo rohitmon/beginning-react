@@ -1,4 +1,5 @@
-
+import MovieComponent from "./components/MovieComponent";
+import './App.css'
 function App() {
   // const [title, setTitle] = useState("");
 
@@ -21,9 +22,10 @@ function App() {
   //   </>
   // );
   return (
-    <>
-      <h1>Hello React!!</h1>
-    </>
+    <div className="App">
+      <MovieComponent />
+      {/* Add more components as needed */}
+    </div>
   )
 }
 
